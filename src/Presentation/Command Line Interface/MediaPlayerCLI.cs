@@ -23,7 +23,7 @@ namespace MediaPlayer.src.Presentation
             while(true)
             {
                 DisplayMainMenu();
-                string? userInut = Console.ReadLine();
+                string? userInput = Console.ReadLine();
                 switch(userInput)
                 {
                     case "1":
