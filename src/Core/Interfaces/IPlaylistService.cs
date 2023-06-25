@@ -4,6 +4,6 @@ namespace MediaPlayer.src.Core.Intefaces
     {
         void CreatePlaylist (string name);
         void AddMediaToPlayList(string playlistName, string mediaName);
-        void RemoveMediaFromPlaylist(string listNmae, string mediaName);
+        void RemoveMediaFromPlaylist(string listNamae, string mediaName);
     }
 }

@@ -4,12 +4,12 @@ namespace MediaPlayer.src.Core.Entities
     {
         public int ID { get; private set;}
         public string Name { get; private set;}
-        private List<MediaFile> _mediaFiles;
+        private HashSet<MediaFile> _mediaFiles;
 
         public Playlist (string name)
         {
             Name = name;
-            _mediaFiles = new List<MediaFile>();
+            _mediaFiles = new HashSet<MediaFile>();
         }
         public void AddMediaFile(MediaFile mediaFile)
         {
