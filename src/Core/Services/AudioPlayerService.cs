@@ -1,9 +1,8 @@
-using System;
-using MediaPlayer.src.Core.Entities;
 using MediaPlayer.src.Core.Intefaces;
+
 namespace MediaPlayer.src.Core.Services
 {
-    public class AudioPlayerServices : IPlaybackService
+    public class AudioPlayerService : IPlaybackService
     {
         public void Play(string filePath)
         {
@@ -15,7 +14,7 @@ namespace MediaPlayer.src.Core.Services
         }
          public void Stop()
         {
-            Console.WriteLine("Audio Stopped")
+            Console.WriteLine("Audio Stopped");
         }
         public void Seek()
         {
