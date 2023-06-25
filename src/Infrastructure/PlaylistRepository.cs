@@ -1,4 +1,4 @@
-namespace MediaPlayer.src.Core.Infrastructure
+namespace MediaPlayer.src.Infrastructure
 {
     public class PlaylistRepository
     {
